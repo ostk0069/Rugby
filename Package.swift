@@ -18,7 +18,7 @@ let package = Package(
         .package(url: "https://github.com/jpsim/Yams.git", from: "4.0.6"),
 
         // Need await the new version
-        .package(url: "https://github.com/thii/xcbeautify.git", .revision("7305183edac003dae3dc56ce35d039df7bccc3b4"))
+        .package(url: "https://github.com/thii/xcbeautify.git", .branch("master"))
     ],
     targets: [
         .target(name: "Rugby", dependencies: [
